@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url('gt.jpg');
+    background-size: cover;
+   
+}
+
+.ace{
+    color: whitesmoke;
+    font-size: 35px;
+    text-align: center;
+     font-family: 'Satisfy', cursive;
+     font-weight: 600;
+     
+
+text-shadow: rgba(4, 4, 4, 0.5) 0 0 15px, rgba(108, 107, 107, 0.5) 0 0 10px;
+
+}
+span{
+    color: red;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.topnav {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #040404;
+    color: white;
+  }
+/* 
+.frm{
+    
+    float: left;
+    
+} */
+.heading{
+    color: whitesmoke;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 15px;
+   
+}
+legend{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+   
+}
+
+fieldset{
+    margin-left: 3%;
+    width: 60%;
+    box-shadow: 3px 4px 0px 0px #000000;
+    
+ 
+}
+
+.field{
+    padding: 5px 10px 5px ;
+}
+
+.text input{
+    width: 20%;
+color: rgb(36, 35, 42);
+font-size: 16px;
+line-height: 20px;
+min-height: 28px;
+border-radius: 4px;
+padding: 8px 16px;
+border: 2px solid transparent;
+box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
+background: rgb(251, 251, 251);
+transition: all 0.1s ease 0s;
+}
+.date input {
+width: 20%;
+color: rgb(36, 35, 42);
+font-size: 16px;
+line-height: 20px;
+min-height: 28px;
+border-radius: 4px;
+padding: 8px 16px;
+border: 2px solid transparent;
+box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
+background: rgb(251, 251, 251);
+transition: all 0.1s ease 0s;
+
+}
+
+
+.get{
+    margin-top: 10px;
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 5px;
+    color: #fff;
+    background: #000;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 12px 20px;
+    text-align:center;
+    transition-duration: .15s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);    
+}
+
+
+.radio{
+    color: whitesmoke;
+    font-weight: 500;
+}
+.side{
+    margin-left: 3%;
+}
+.side ul{
+    float: left;
+    color: whitesmoke;
+    font-size: larger;
+    margin-left: 35px;
+    list-style:circle
+}
+
+.side li{
+    margin-right: 50px;
+    
+}
+
+.check{
+    margin-left: 3.5%;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.end{
+   padding: 1%;
+   background-color: #000;
+   margin-top: 22%;
+   color: #fff;
+  
+}
+
+.end li{
+    display: inline;
+    padding: 5%;
+    font-weight: 800;
+    font-size: 20px;
+
+}
+
